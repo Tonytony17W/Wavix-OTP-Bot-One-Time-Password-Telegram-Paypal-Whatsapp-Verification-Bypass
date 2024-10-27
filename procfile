@@ -1,0 +1,10 @@
+web: python main.py
+
+worker: python jangod.py 
+
+your_project_folder/
+├── main.py               # Main script
+├── plugin_config.py      # Additional config file
+├── proxy_config.py       # Additional config file
+├── Procfile              # Heroku process file (contains only "web: python main.py")
+├── requirements.txt      # Lists dependencies for Heroku to install
